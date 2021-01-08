@@ -1,0 +1,98 @@
+#presentation {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.left {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.right {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.containerPresentation {
+    /* border: 1px solid #000; */
+    width: 50%;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.cartePresentation {
+    width: 95%;
+    height: 30%;
+    /* border: 1px solid #000; */
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cartePresentation>h3 {
+    margin-bottom: 20px;
+}
+
+.cartePresentation>p {
+    margin-bottom: 10px;
+}
+
+.cartePresentation>hr {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.presentation2 {
+    display: none;
+    position: relative;
+}
+
+.presentation2>i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 6em;
+}
+
+.presentation3 {
+    display: none;
+    position: relative;
+}
+
+.presentation3>i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 6em;
+}

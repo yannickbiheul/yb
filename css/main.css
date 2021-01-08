@@ -1,0 +1,106 @@
+@import "header.css";
+@import "accueil.css";
+@import "presentation.css";
+@import "competences.css";
+@import "experiences.css";
+@import "portfolio.css";
+@import "footer.css";
+@import "mediaQueries.css";
+
+:root {
+    --blue: #425a88;
+    --blue2: #24243e;
+    --red: #e84118;
+    --green: #4cd137;
+    --back_img: linear-gradient(45deg, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/rain.jpg);
+    --back_img2: linear-gradient(45deg, rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%), url(../images/blur.jpg);
+    --tailleCube: 70px;
+    /* --cubeY = --tailleCube / 2. */
+    --cubeY: calc(var(--tailleCube) / 2);
+    --speedCube: 10s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.scrollTop {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    z-index: 50;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.scrollTop>a {
+    color: #fff;
+    font-size: 2em;
+}
+
+.bouton {
+    width: 250px;
+    height: 60px;
+    /* border: 1px solid #fff; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton>a {
+    color:#fff;
+    background: transparent;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.bouton>a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.titreSectionBlanc {
+    position: absolute;
+    color: #fff;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.titreSectionNoir {
+    position: absolute;
+    color: #000;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}

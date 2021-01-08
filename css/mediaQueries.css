@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) {
+    nav {
+        display: none;
+    }
+
+    .boutonBurger {
+        display: flex;
+    }
+
+    #accueil {
+        height: 100vh;
+    }
+
+    .divAccueil>h1 {
+        font-size: 3.5em;
+    }
+
+    .divAccueil>img {
+        width: 150px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .containerPresentation {
+        width: 95%;
+        height: 500px;
+        margin: 40px 0;
+    }
+
+    .left {
+        width: 20px;
+        height: 20px;
+        left: 10px;
+    }
+
+    .right {
+        width: 20px;
+        height: 20px;
+        right: 10px;
+    }
+
+    .cartePresentation {
+        width: 75%;
+        margin: 20px 0;
+    }
+
+    .presentation2>i {
+        display: none;
+    }
+
+    .presentation3>i {
+        display: none;
+    }
+}
