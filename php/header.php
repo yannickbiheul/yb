@@ -18,8 +18,6 @@
     <script src="https://kit.fontawesome.com/29ef46100e.js" crossorigin="anonymous"></script>
     <!-- jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <!-- JAVASCRIPT -->
-    <script src='js/main.js' defer></script>
 </head>
 
 <body>

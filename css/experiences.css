@@ -1,55 +1,67 @@
 #experiences {
-    width: 100%;
-    min-height: 100vh;
+    position: relative;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+    
     padding: 140px 0;
-    position: relative;
 }
 
 .containerExperiences {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
+    height: auto;
+    
     padding: 40px 0;
 }
 
 .expGauche {
-    width: 75%;
-    height: 250px;
-    /* border: 1px solid #000; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    width: 75%;
+    height: 250px;
+
+    /* border: 1px solid #000; */
     margin: 20px;
 }
 
 .expDroite {
-    width: 75%;
-    height: 250px;
-    /* border: 1px solid #000; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    width: 75%;
+    height: 250px;
+
+    /* border: 1px solid #000; */
     margin: 20px;
 }
 
 .exp {
-    width: 50%;
-    height: 100%;
-    border: 1px solid #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 50%;
+    height: 100%;
+
+    border: 1px solid #000;
 }
 
 .exp>hr {
     width: 50%;
+    
     margin: 40px 0;
 }

@@ -1,4 +1,6 @@
 @media screen and (max-width: 1200px) {
+
+    /* NAVIGATION */
     nav {
         display: none;
     }
@@ -7,6 +9,7 @@
         display: flex;
     }
 
+    /* ACCUEIL */
     #accueil {
         height: 100vh;
     }
@@ -16,31 +19,37 @@
     }
 
     .divAccueil>img {
-        width: 150px;
         position: relative;
         bottom: 0;
+
+        width: 150px;
     }
 
+    /* PRESENTATION */
     .containerPresentation {
-        width: 95%;
-        height: 500px;
+        width: 85%;
+        height: auto;
+
         margin: 40px 0;
     }
 
     .left {
-        width: 20px;
-        height: 20px;
-        left: 10px;
+        left: -20px;
+
+        width: 40px;
+        height: 40px;
     }
 
     .right {
+        right: 10px;
+
         width: 20px;
         height: 20px;
-        right: 10px;
     }
 
     .cartePresentation {
-        width: 75%;
+        width: 100%;
+        
         margin: 20px 0;
     }
 
@@ -51,4 +60,12 @@
     .presentation3>i {
         display: none;
     }
+}
+
+@media screen and (max-height: 940px) {
+    .divAccueil>img{
+        width: 150px;
+        bottom: -75px;
+    }
+    
 }
